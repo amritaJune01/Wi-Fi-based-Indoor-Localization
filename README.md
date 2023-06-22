@@ -1,5 +1,3 @@
-# Wi-Fi-based-Indoor-Localization
-
 The aim of this project is to develop a system that can accurately determine the room level location of a person within an indoor environment using WiFi signals. This can be achieved by utilizing the strength and quality of WiFi signals received by multiple access points (APs) installed in the indoor space.
 
 This system has various potential applications, such as:
