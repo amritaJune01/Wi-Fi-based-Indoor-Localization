@@ -1,0 +1,11 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="List_Heading">Kovida Kshatri</string>
+    <string name="name_text">Prof. X</string>
+    <string name="status_text">Online</string>
+    <string name="loc_text">Near C201 LHC</string>
+    <string name="app_name">Wi-Fi Localize</string>
+    <string name="home">Home</string>
+    <string name="setting">Settings</string>
+</resources>

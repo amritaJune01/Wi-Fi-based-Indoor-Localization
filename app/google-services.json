@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "641669158724",
+    "project_id": "wififingerprinting-b455e",
+    "storage_bucket": "wififingerprinting-b455e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641669158724:android:15610f2f56e267757be911",
+        "android_client_info": {
+          "package_name": "com.example.mc_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641669158724-eh14gr48m8d8vfrpfhjrae79eaelcctu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mc_project",
+            "certificate_hash": "82fd00c3d3447b3736a0d658998a4b9e154015d1"
+          }
+        },
+        {
+          "client_id": "641669158724-qmhh764jl8masr7ktd3a4d5rgpl2obb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYNE-pxYImcM3Am3lc44te6NkFsOLV_lk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641669158724-qmhh764jl8masr7ktd3a4d5rgpl2obb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

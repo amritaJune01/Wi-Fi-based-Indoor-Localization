@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/contacts_list_background"
+    android:backgroundTintMode="src_over"
+    android:backgroundTint="#17B9AFAF"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/listFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/navigation_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/navigation_bar"
+        android:elevation="4dp"
+        android:background="#F5F5F5"
+        app:itemTextColor="@drawable/text_selector"
+        app:itemIconTint="@drawable/icon_selector"
+        app:itemTextAppearanceActive="@style/TextAppearance.AppCompat.Headline"
+        app:itemTextAppearanceInactive="@style/TextAppearance.AppCompat.Large"
+        app:itemIconSize="45dp"
+        android:paddingBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        android:textAlignment="center"
+        app:menu="@menu/bottom_navigation_menu"
+       />
+</androidx.constraintlayout.widget.ConstraintLayout>
